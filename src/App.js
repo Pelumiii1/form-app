@@ -24,10 +24,12 @@ function App() {
           console.log(error.text);
         }
       );
+      
   };
 
   return (
     <div className="App">
+      <h1 className="title">Fill the form below</h1>
       <form onSubmit={handleSubmit} ref={form}>
         <label>Full Name:</label>
         <input type="text" name="fullName" required />

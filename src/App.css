@@ -1,5 +1,4 @@
-/* Form.css */
-
+/* Form.css */  
 .App {
   text-align: center;
 }
@@ -57,6 +56,11 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+.title{
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 /* Additional styling for checkboxes */
